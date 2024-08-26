@@ -229,7 +229,7 @@
         <a id="ERR_NGROK_200" href="/docs/errors/err_ngrok_200">ERR_NGROK_200</a>
       </td>
       <td class="pre-wrapped">
-        The ngrok API requires that you set the Authorization header for authentication. Your API keys and instructions are available on your dashboard: <a href="https://dashboard.ngrok.com/api">https://dashboard.ngrok.com/api</a>
+        The ngrok API requires that you set the Authorization header for authentication. Your API keys and instructions are available on your dashboard: <a href="https://dashboard.ngrok.com/api-keys">https://dashboard.ngrok.com/api-keys</a>
       </td>
     </tr>
     <tr>
@@ -237,7 +237,7 @@
         <a id="ERR_NGROK_201" href="/docs/errors/err_ngrok_201">ERR_NGROK_201</a>
       </td>
       <td class="pre-wrapped">
-        The ngrok API requires that you use Basic or Bearer authentication via the Authorization header. It could not parse the header in this request. Authorization Header: <code>&lt;VAL&gt;</code>. API keys and instructions are available on your dashboard: <a href="https://dashboard.ngrok.com/api">https://dashboard.ngrok.com/api</a>
+        The ngrok API requires that you use Basic or Bearer authentication via the Authorization header. It could not parse the header in this request. Authorization Header: <code>&lt;VAL&gt;</code>. API keys and instructions are available on your dashboard: <a href="https://dashboard.ngrok.com/api-keys">https://dashboard.ngrok.com/api-keys</a>
       </td>
     </tr>
     <tr>
@@ -245,7 +245,7 @@
         <a id="ERR_NGROK_202" href="/docs/errors/err_ngrok_202">ERR_NGROK_202</a>
       </td>
       <td class="pre-wrapped">
-        The API authentication you specified does not look like a valid credential. Your credential: <code>&lt;TOKEN&gt;</code>. API keys and instructions are available on your dashboard: <a href="https://dashboard.ngrok.com/api">https://dashboard.ngrok.com/api</a>
+        The API authentication you specified does not look like a valid credential. Your credential: <code>&lt;TOKEN&gt;</code>. API keys and instructions are available on your dashboard: <a href="https://dashboard.ngrok.com/api-keys">https://dashboard.ngrok.com/api-keys</a>
       </td>
     </tr>
     <tr>
@@ -253,7 +253,7 @@
         <a id="ERR_NGROK_203" href="/docs/errors/err_ngrok_203">ERR_NGROK_203</a>
       </td>
       <td class="pre-wrapped">
-        The API authentication you specified is properly formed, but it is invalid. Your authentication: <code>&lt;TOKEN&gt;</code>. API keys and instructions are available on your dashboard: <a href="https://dashboard.ngrok.com/api">https://dashboard.ngrok.com/api</a>
+        The API authentication you specified is properly formed, but it is invalid. Your authentication: <code>&lt;TOKEN&gt;</code>. API keys and instructions are available on your dashboard: <a href="https://dashboard.ngrok.com/api-keys">https://dashboard.ngrok.com/api-keys</a>
       </td>
     </tr>
     <tr>
@@ -278,7 +278,7 @@
         <a id="ERR_NGROK_206" href="/docs/errors/err_ngrok_206">ERR_NGROK_206</a>
       </td>
       <td class="pre-wrapped">
-        The authentication you specified is actually a tunnel credential. Your credential: <code>&lt;TOKEN&gt;</code>. Please check your records for an API key. API keys and instructions are available on your dashboard: <a href="https://dashboard.ngrok.com/api">https://dashboard.ngrok.com/api</a>
+        The authentication you specified is actually a tunnel credential. Your credential: <code>&lt;TOKEN&gt;</code>. Please check your records for an API key. API keys and instructions are available on your dashboard: <a href="https://dashboard.ngrok.com/api-keys">https://dashboard.ngrok.com/api-keys</a>
       </td>
     </tr>
     <tr>
@@ -286,7 +286,7 @@
         <a id="ERR_NGROK_207" href="/docs/errors/err_ngrok_207">ERR_NGROK_207</a>
       </td>
       <td class="pre-wrapped">
-        The authentication you specified is actually a tunnel credential, not an API key token. Your key: <code>&lt;TOKEN&gt;</code>. Please check your records for an API key with the form FIRSTPART_SECONDPART. API keys and instructions are available on your dashboard: <a href="https://dashboard.ngrok.com/api">https://dashboard.ngrok.com/api</a>
+        The authentication you specified is actually a tunnel credential, not an API key token. Your key: <code>&lt;TOKEN&gt;</code>. Please check your records for an API key with the form FIRSTPART_SECONDPART. API keys and instructions are available on your dashboard: <a href="https://dashboard.ngrok.com/api-keys">https://dashboard.ngrok.com/api-keys</a>
       </td>
     </tr>
     <tr>
@@ -294,7 +294,7 @@
         <a id="ERR_NGROK_208" href="/docs/errors/err_ngrok_208">ERR_NGROK_208</a>
       </td>
       <td class="pre-wrapped">
-        The authentication you specified is actually an API key ID, not an API key token. Your credential: <code>&lt;TOKEN&gt;</code>. Please check your records for an API key with the form FIRSTPART_SECONDPART. API keys and instructions are available on your dashboard: <a href="https://dashboard.ngrok.com/api">https://dashboard.ngrok.com/api</a>
+        The authentication you specified is actually an API key ID, not an API key token. Your credential: <code>&lt;TOKEN&gt;</code>. Please check your records for an API key with the form FIRSTPART_SECONDPART. API keys and instructions are available on your dashboard: <a href="https://dashboard.ngrok.com/api-keys">https://dashboard.ngrok.com/api-keys</a>
       </td>
     </tr>
     <tr>
@@ -4925,8 +4925,8 @@
         <a id="ERR_NGROK_2224" href="/docs/errors/err_ngrok_2224">ERR_NGROK_2224</a>
       </td>
       <td class="pre-wrapped">
-        <code>&lt;PHASE&gt;</code> action <code>&lt;TYP&gt;</code> failed to compile template expressions in configuration headers.
-        <code>&lt;ERR&gt;</code>
+        Invalid configuration for action <code>&lt;ACTION&gt;</code>: failed to compile CEL template expressions in <code>&lt;FIELD&gt;</code>.
+        <code>&lt;ERR&gt;</code>.
       </td>
     </tr>
     <tr>
@@ -4950,7 +4950,7 @@
         <a id="ERR_NGROK_2227" href="/docs/errors/err_ngrok_2227">ERR_NGROK_2227</a>
       </td>
       <td class="pre-wrapped">
-        Invalid configuration for <code>&lt;ACTION&gt;</code>: <code>&lt;CONFIG&gt;</code> must be a valid issuer URL, but was <code>&lt;ISSUERURL&gt;</code>
+        Invalid configuration for <code>&lt;ACTION&gt;</code>: <code>&lt;CONFIG&gt;</code> must be a valid issuer URL, but was <code>&lt;ISSUERURL&gt;</code>.
       </td>
     </tr>
     <tr>
@@ -4958,7 +4958,31 @@
         <a id="ERR_NGROK_2228" href="/docs/errors/err_ngrok_2228">ERR_NGROK_2228</a>
       </td>
       <td class="pre-wrapped">
-        Invalid configuration for <code>&lt;ACTION&gt;</code>: Failed to parse <code>&lt;CONFIG&gt;</code>: <code>&lt;REASON&gt;</code>
+        Invalid configuration for <code>&lt;ACTION&gt;</code>: Failed to parse <code>&lt;CONFIG&gt;</code>: <code>&lt;REASON&gt;</code>.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a id="ERR_NGROK_2229" href="/docs/errors/err_ngrok_2229">ERR_NGROK_2229</a>
+      </td>
+      <td class="pre-wrapped">
+        Failed to validate Traffic Policy for unknown protocol <code>&lt;PROTO&gt;</code>.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a id="ERR_NGROK_2230" href="/docs/errors/err_ngrok_2230">ERR_NGROK_2230</a>
+      </td>
+      <td class="pre-wrapped">
+        Invalid Traffic Policy phase <code>&lt;PHASE&gt;</code> for protocol <code>&lt;PROTO&gt;</code>.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a id="ERR_NGROK_2231" href="/docs/errors/err_ngrok_2231">ERR_NGROK_2231</a>
+      </td>
+      <td class="pre-wrapped">
+        Invalid configuration for <code>&lt;ACTION&gt;</code>: <code>&lt;CONFIG&gt;</code> contains duplicate values: <code>&lt;DUPLICATES&gt;</code>.
       </td>
     </tr>
     <tr>
@@ -9564,6 +9588,62 @@
     </tr>
     <tr>
       <td>
+        <a id="ERR_NGROK_9027" href="/docs/errors/err_ngrok_9027">ERR_NGROK_9027</a>
+      </td>
+      <td class="pre-wrapped">
+        Your account is not authorized to use private bindings.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a id="ERR_NGROK_9028" href="/docs/errors/err_ngrok_9028">ERR_NGROK_9028</a>
+      </td>
+      <td class="pre-wrapped">
+        You must specify a domain name for a privately bound endpoint.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a id="ERR_NGROK_9029" href="/docs/errors/err_ngrok_9029">ERR_NGROK_9029</a>
+      </td>
+      <td class="pre-wrapped">
+        Failed to start endpoint with <code>&lt;URL&gt;</code>. Endpoints with a "private" binding must have a url that ends in ".private".
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a id="ERR_NGROK_9030" href="/docs/errors/err_ngrok_9030">ERR_NGROK_9030</a>
+      </td>
+      <td class="pre-wrapped">
+        Failed to start endpoint with URL <code>&lt;URL&gt;</code>, invalid port. Port must be in range range 1-65535.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a id="ERR_NGROK_9031" href="/docs/errors/err_ngrok_9031">ERR_NGROK_9031</a>
+      </td>
+      <td class="pre-wrapped">
+        Failed to start endpoint with URL <code>&lt;URL&gt;</code>. Endpoints must have at most 5 parts, but had <code>&lt;DEPTH&gt;</code>.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a id="ERR_NGROK_9032" href="/docs/errors/err_ngrok_9032">ERR_NGROK_9032</a>
+      </td>
+      <td class="pre-wrapped">
+        Provided domain <code>&lt;DOMAIN&gt;</code> could not be parsed: <code>&lt;ERROR&gt;</code>.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a id="ERR_NGROK_9033" href="/docs/errors/err_ngrok_9033">ERR_NGROK_9033</a>
+      </td>
+      <td class="pre-wrapped">
+        Provided domain <code>&lt;DOMAIN&gt;</code> had a non-numeric port component.
+      </td>
+    </tr>
+    <tr>
+      <td>
         <a id="ERR_NGROK_10000" href="/docs/errors/err_ngrok_10000">ERR_NGROK_10000</a>
       </td>
       <td class="pre-wrapped">
@@ -10024,6 +10104,14 @@
       </td>
       <td class="pre-wrapped">
         The request you are trying to view was not found.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a id="ERR_NGROK_10091" href="/docs/errors/err_ngrok_10091">ERR_NGROK_10091</a>
+      </td>
+      <td class="pre-wrapped">
+        The usage page has timed out. Please refresh the page and try again.
       </td>
     </tr>
     <tr>
